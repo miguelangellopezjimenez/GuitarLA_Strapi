@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/curses",
+      "handler": "curses.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/curses",
+      "handler": "curses.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/curses",
+      "handler": "curses.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
